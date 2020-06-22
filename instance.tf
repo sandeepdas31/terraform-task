@@ -1,9 +1,7 @@
 #my zone
 provider "aws" {
   region     = "${var.region}"
-  access_key = "AKIARFDRFBCEBZDNQS3G"
-  secret_key = "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"
-}
+  }
 
 #my vpc
 resource "aws_vpc" "vpchome" {
